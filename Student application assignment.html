@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudent Form Application</title>
+</head>
+<body>
+    <form action="" method="get">
+<h1>Student form application</h1>
+
+<div>
+    <label for="n">Student Name</label>
+    <input type="text" name="name" id="n">
+</div>
+<div>
+    <label for="d">Date of birth</label>
+    <input type="date" name="date" id="d">
+</div>
+<div>
+    <label for="w">weight</label>
+    <input type="number" name="weight" id="w" min="20" max="180">
+</div>
+<div>
+    <span>gender:</span>
+    <label for="m">male</label>
+    <input type="radio" name="gender" id="m">
+    <label for="f">female</label>
+    <input type="radio" name="gender" id="f">
+</div>
+<div>
+    <label for="e">EMAIL</label>
+    <input type="email" name="email" id="e">
+</div>
+<div>
+    <label for="p">Phone Number</label>
+    <input type="tel" name="phone" id="p">
+</div>
+<div>
+    <label for="c">City</label>
+    <select name="city" id="c">
+        <option value="amman">Amman</option>
+        <option value="irbid">irbid</option>
+        <option value="salt">salt</option>
+        <option value="aqaba">aqaba</option>
+        <option value="zarqa">zarqa</option>
+    </select>
+</div>
+<div>
+    <label for="co">Favourite color</label>
+    <input type="color" name="color" id="co">
+</div>
+<div>
+    <label for="cv">CV link</label>
+    <input type="url" name="cv" id="cv">
+</div>
+<div>
+    <label for="contact">Can we contact you on email?</label>
+    <input type="checkbox" name="con" id="contact">
+</div>
+
+<div>
+    <label for="pu">Prefered University</label>
+    <select name="pu" id="pu">
+        <option value="yarmouk">Yarmouk University</option>
+        <option value="jordanion">Jordanion University</option>
+        <option value="technological">Technological University</option>
+        <option value="Hashmite">Hashmite University</option>
+    </select>
+</div>
+<div>
+    <label for="gp">GPA</label>
+    <input type="Number" name="gpa" id="gp" min="50" max="100">
+</div>
+
+
+<button>submit</button>
+    </form>
+
+    <table>
+        <header>
+            <tr>
+            <th>Student name</th>
+            <th>Gender</th>
+            <th>City</th>
+            <th>GPA</th>
+            </tr>
+        </header>
+        <tbody>
+            <tr>
+                <td>Mohammad</td>
+                <td>Male</td>
+                <td>Amman</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>sarah</td>
+                <td>female</td>
+                <td>irbid</td>
+                <td>91</td>
+            </tr>
+            <tr>
+                <td>hamzeh</td>
+                <td>Male</td>
+                <td>zarqa</td>
+                <td>79</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
