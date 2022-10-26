@@ -1,0 +1,19 @@
+#book-hero {
+    background-image: url(pexels-freestocksorg-1122530.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#book-hero>div>div {
+    background-color: rgba(240, 249, 249, 0.5);
+}
+
+#book-shop-wrapper .card{
+    width: 100%;
+}
+
+
+#all-books-title {
+    margin-right: 30%;
+}
